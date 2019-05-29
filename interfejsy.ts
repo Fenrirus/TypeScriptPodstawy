@@ -15,6 +15,7 @@ export function naszaFunkcja (obiekt:Serializable)
 
 export class User implements Serializable, Drawable
 {
+    name: string;
     draw(ctx: CanvasRenderingContext2D): void
     {
        // ctx.drawImage(...):
